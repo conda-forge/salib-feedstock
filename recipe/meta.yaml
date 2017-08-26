@@ -1,4 +1,4 @@
-{% set version = "1.0.3" %}
+{% set version = "1.0.7" %}
 
 package:
   name: salib
@@ -7,7 +7,7 @@ package:
 source:
   fn: salib-{{ version }}.tar.gz
   url: https://github.com/SALib/SALib/archive/v{{ version }}.tar.gz
-  sha256: 58c0eb718c624a9a20de160c2d9e3c3fcbd5753b1597883890670678e6c11b21
+  sha256: b5c17e0d82fb3c09fb03645666f69eb4c058c71a0d76334afefac6fb09476e35
 
 build:
   number: 0
