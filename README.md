@@ -14,9 +14,7 @@ Summary: Sensitivity Analysis Library
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/salib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/salib-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/salib-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/salib-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/salib-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/salib-feedstock/branch/master)
+All platforms: [![Circle CI](https://circleci.com/gh/conda-forge/salib-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/salib-feedstock)
 
 Current release info
 ====================

@@ -1,4 +1,4 @@
-{% set version = "1.0.7" %}
+{% set version = "1.1.0" %}
 
 package:
   name: salib
@@ -7,10 +7,11 @@ package:
 source:
   fn: salib-{{ version }}.tar.gz
   url: https://github.com/SALib/SALib/archive/v{{ version }}.tar.gz
-  sha256: b5c17e0d82fb3c09fb03645666f69eb4c058c71a0d76334afefac6fb09476e35
+  sha256: af93d79302cbab87e8510867c8efab2ffadf2922505123f1dad40df1beebc30f
 
 build:
   number: 0
+  noarch: python
   script:
     - git init  # hack to build from tarball
     - python setup.py install --single-version-externally-managed --record=record.txt
