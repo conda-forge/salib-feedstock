@@ -14,17 +14,19 @@ build:
   noarch: python
   script:
     - git init  # hack to build from tarball
-    - python setup.py install --single-version-externally-managed --record=record.txt
+    - "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
 requirements:
   build:
     - python
+    - pip
     - pyscaffold
   run:
     - python
     - numpy
     - scipy
     - matplotlib
+    - pandas
 
 test:
   imports:
