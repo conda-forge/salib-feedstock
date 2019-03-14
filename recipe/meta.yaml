@@ -18,12 +18,14 @@ build:
 
 requirements:
   host:
-    - python
+    - python >=3
     - pip
     - pyscaffold
+    - scipy
+    - matplotlib
+    - pandas
   run:
-    - python
-    - numpy
+    - python >=3
     - scipy
     - matplotlib
     - pandas
