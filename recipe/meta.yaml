@@ -1,4 +1,4 @@
-{% set version = "1.1.2" %}
+{% set version = "1.3.8" %}
 
 package:
   name: salib
@@ -13,15 +13,14 @@ build:
   number: 0
   noarch: python
   script:
-    - git init  # hack to build from tarball
-    - python setup.py install --single-version-externally-managed --record=record.txt
-
+    - python setup.py install
 requirements:
   build:
     - python
     - pyscaffold
   run:
     - python
+    - pandas
     - numpy
     - scipy
     - matplotlib
@@ -40,3 +39,4 @@ about:
 extra:
   recipe-maintainers:
     - jschueller
+    - willu47
