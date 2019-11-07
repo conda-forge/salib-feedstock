@@ -15,12 +15,12 @@ build:
   script: "python -m pip install . --no-deps -vv"
 requirements:
   build:
-    - python
+    - python 3.*
     - pyscaffold
   host:
     - pip
   run:
-    - python
+    - python 3.*
     - pandas
     - numpy
     - scipy
