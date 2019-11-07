@@ -24,7 +24,6 @@ requirements:
     - pandas
     - numpy
     - scipy
-    - pandas
     - matplotlib
 
 test:
