@@ -117,4 +117,5 @@ Feedstock Maintainers
 =====================
 
 * [@jschueller](https://github.com/jschueller/)
+* [@willu47](https://github.com/willu47/)
 
