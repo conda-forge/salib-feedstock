@@ -15,6 +15,7 @@ build:
   script: "python -m pip install . --no-deps -vv"
 requirements:
   build:
+    - pip
     - python 3.*
     - pyscaffold
   host:
