@@ -14,6 +14,8 @@ build:
   noarch: python
   script: "python -m pip install . --no-deps -vv"
 requirements:
+  build:
+    - pyscaffold
   host:
     - python >=3
     - pip
