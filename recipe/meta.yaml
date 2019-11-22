@@ -15,11 +15,13 @@ build:
   script: "python -m pip install . --no-deps -vv"
 requirements:
   build:
-    - pyscaffold
+    - python >=3.5
+    - pip
+    - pyscaffold>=3.2a0,<3.3a0
   host:
     - python >=3
     - pip
-    - pyscaffold
+    - pyscaffold>=3.2a0,<3.3a0
   run:
     - python >=3
     - pandas
