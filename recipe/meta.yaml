@@ -3,20 +3,19 @@ package:
   name: salib
   version: {{ version }}
 source:
-  fn: salib-{{ version }}.tar.gz
-  url: https://github.com/SALib/SALib/archive/v{{ version }}.tar.gz
-  sha256: d754a6199e116014f268a2e5844b28f6ddbf8ceb69156a9974c5833ba1d37f17
+  fn: Salib-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/p/SALib/SALib-{{ version }}.tar.gz
+  sha256: af07e284ce1e85d2fea6c571b4b3d5c518f70faa518ed890ca4212bd0ad0d3d8
 build:
   number: 0
   noarch: python
   script:
-    - git init  # hack to build from tarball
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
 requirements:
   host:
     - pip
     - python >=3.6
-    - setuptools >=30.3.0
+    - setuptools >=38.3
   run:
     - python >=3.6
     - numpy >=1.16
