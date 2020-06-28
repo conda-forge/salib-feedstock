@@ -11,7 +11,7 @@ build:
   noarch: python
   script:
     - git init  # hack to build from tarball
-    - python -m pip install . --no-deps -vv
+    - "{{ PYTHON }} -m pip install . --no-deps -vv"
 requirements:
   host:
     - pip
