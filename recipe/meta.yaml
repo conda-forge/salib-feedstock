@@ -5,7 +5,7 @@ package:
 source:
   fn: salib-{{ version }}.tar.gz
   url: https://github.com/SALib/SALib/archive/v{{ version }}.tar.gz
-  sha256: af07e284ce1e85d2fea6c571b4b3d5c518f70faa518ed890ca4212bd0ad0d3d8
+  sha256: d754a6199e116014f268a2e5844b28f6ddbf8ceb69156a9974c5833ba1d37f17
 build:
   number: 0
   noarch: python
