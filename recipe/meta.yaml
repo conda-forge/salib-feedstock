@@ -12,6 +12,11 @@ build:
   script:
     - "{{ PYTHON }} -m pip install . --no-deps -vv"
 requirements:
+  build:
+    - pyscaffold>=3.2a0,<3.3a0
+    - pip
+    - python >=3.6
+    - setuptools >=38.3
   host:
     - pip
     - python >=3.6
