@@ -9,8 +9,7 @@ source:
 build:
   number: 0
   noarch: python
-  script:
-    - "python3 -m pip install . --no-deps -vv"
+  script: "{{ python }} -m pip install . --no-deps -vv" # [py3k]
 requirements:
   build:
     - "pyscaffold >=3.2a0,<3.3a0"
