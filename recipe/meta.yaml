@@ -10,7 +10,7 @@ build:
   number: 0
   noarch: python
   script:
-    - "{{ PYTHON }} -m pip install . --no-deps -vv"
+    - "python3 -m pip install . --no-deps -vv"
 requirements:
   build:
     - "pyscaffold >=3.2a0,<3.3a0"
