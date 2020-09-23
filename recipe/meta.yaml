@@ -10,7 +10,7 @@ source:
   sha256: 5ef6444d2323404faaf8ca1579314f1964da21533f9d32887a29db35e991a6f0
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script:
     - git init  # hack to build from tarball
@@ -24,7 +24,7 @@ requirements:
     - python
     - numpy
     - scipy
-    - matplotlib
+    - matplotlib-base
 
 test:
   imports:
