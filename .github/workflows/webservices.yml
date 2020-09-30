@@ -9,4 +9,4 @@ jobs:
         id: webservices
         uses: conda-forge/webservices-dispatch-action@master
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
+          github_token: ${{ secrets.ANACONDA_TOKEN }}
