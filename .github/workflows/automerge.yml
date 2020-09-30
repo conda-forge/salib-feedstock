@@ -15,4 +15,4 @@ jobs:
         id: automerge-action
         uses: conda-forge/automerge-action@master
         with:
-          github_token: ${{ secrets.ANACONDA_TOKEN }}
+          github_token: ${{ secrets.GITHUB_TOKEN }}
