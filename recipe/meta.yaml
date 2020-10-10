@@ -14,7 +14,6 @@ build:
   script: "{{ python }} -m pip install . --no-deps -vv"  # [py3k]
 requirements:
   host:
-    - pyscaffold >=3.2.3,<3.3
     - pip
     - python >=3.6
     - setuptools >=38.3
