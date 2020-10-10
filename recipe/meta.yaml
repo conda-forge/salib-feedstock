@@ -11,12 +11,13 @@ source:
 build:
   number: 0
   noarch: python
-  script: "{{ python }} -m pip install . --no-deps -vv"  # [py3k]
+  script: "{{ python }} -m pip install . --no-deps -vv"
 requirements:
   host:
     - pip
     - python >=3.6
     - setuptools >=38.3
+    - pyscaffold >=3.2.3
   run:
     - python >=3.6
     - numpy >=1.16
@@ -24,10 +25,16 @@ requirements:
     - scipy
     - matplotlib-base
 test:
+  source_files:
+    # copy files from source dir into temp test dir necessary for tests to pass
+    - tests/*
+    - src/SALib/test_functions/params/Ishigami.txt
+    - src/SALib/test_functions/params/Ishigami_groups.txt
   imports:
     - SALib
   requires:
     - pytest
+    - pytest-cov
   commands:
     - pytest
 about:
