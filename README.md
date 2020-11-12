@@ -5,11 +5,9 @@ Home: http://salib.github.io/SALib/
 
 Package license: MIT
 
-Feedstock license: BSD 3-Clause
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/salib-feedstock/blob/master/LICENSE.txt)
 
 Summary: Sensitivity Analysis Library
-
-
 
 Current build status
 ====================
@@ -116,6 +114,7 @@ In order to produce a uniquely identifiable distribution:
 Feedstock Maintainers
 =====================
 
+* [@ConnectedSystems](https://github.com/ConnectedSystems/)
 * [@jschueller](https://github.com/jschueller/)
 * [@willu47](https://github.com/willu47/)
 
