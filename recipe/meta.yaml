@@ -25,17 +25,8 @@ requirements:
     - pathos >=0.2.5
     - multiprocess
 test:
-  source_files:
-    # copy files from source dir into temp test dir necessary for tests to pass
-    - tests/*
-    - src/*
   imports:
     - SALib
-  requires:
-    - pytest
-    - pytest-cov
-  commands:
-    - pytest
 about:
   home: http://salib.github.io/SALib/
   license: MIT
