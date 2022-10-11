@@ -1,5 +1,4 @@
-{% set version = "1.4.5" %}
-{% set python = "python3" %}
+{% set version = "1.4.6" %}
 
 package:
   name: salib
@@ -7,24 +6,23 @@ package:
 source:
   fn: SALib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/S/SALib/SALib-{{ version }}.tar.gz
-  sha256: cf396176e30ded57ad67d0d154f917689f8f73ef5cc1dcd38d4796f43610d925
+  sha256: 14337239f1e92960e8f53774c27b1d072253790b57edbbebd290057a5eeb3858
 build:
   number: 0
   noarch: python
-  script: {{ python }} -m pip install . --no-deps -vv
+  script: {{ PYTHON }} -m pip install . --no-deps -vv
 requirements:
   host:
     - pip
-    - python >=3.6
-    - setuptools >=38.3
-    - pyscaffold >=3.2.3
+    - python >=3.8
+    - hatchling>=1.8.1
   run:
-    - python >=3.6
-    - numpy >=1.16
-    - pandas >=1.0.3
-    - scipy
-    - matplotlib-base
-    - pathos
+    - python >=3.8
+    - numpy >=1.20.3
+    - pandas >=1.1.2
+    - scipy >=1.7.3
+    - matplotlib >=3.2.2
+    - pathos >=0.2.5
     - multiprocess
 test:
   source_files:
