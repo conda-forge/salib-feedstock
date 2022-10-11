@@ -5,7 +5,7 @@ package:
   version: {{ version }}
 source:
   fn: SALib-{{ version }}.tar.gz
-  url: https://pypi.io/packages/source/S/SALib/SALib-{{ version }}.tar.gz
+  url: https://pypi.io/packages/source/s/salib/salib-{{ version }}.tar.gz
   sha256: 14337239f1e92960e8f53774c27b1d072253790b57edbbebd290057a5eeb3858
 build:
   number: 0
