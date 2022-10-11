@@ -29,9 +29,16 @@ test:
     - SALib
 about:
   home: http://salib.github.io/SALib/
+  dev_url: https://github.com/SALib/SALib
+  doc_url: http://salib.readthedocs.org
   license: MIT
   license_file: LICENSE.md
   summary: Sensitivity Analysis Library
+  description: |
+    Python implementations of commonly used sensitivity analysis methods.
+    Useful in systems modeling to calculate the effects of model inputs or
+    exogenous factors on outputs of interest.
+
 extra:
   recipe-maintainers:
     - jschueller
