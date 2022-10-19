@@ -9,6 +9,15 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/salib-feedstock
 
 Summary: Sensitivity Analysis Library
 
+Development: https://github.com/SALib/SALib
+
+Documentation: http://salib.readthedocs.org
+
+Python implementations of commonly used sensitivity analysis methods.
+Useful in systems modeling to calculate the effects of model inputs or
+exogenous factors on outputs of interest.
+
+
 Current build status
 ====================
 
