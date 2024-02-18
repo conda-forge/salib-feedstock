@@ -1,4 +1,4 @@
-{% set version = "1.4.7" %}
+{% set version = "1.4.8" %}
 
 package:
   name: salib
@@ -6,7 +6,7 @@ package:
 source:
   fn: SALib-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/s/salib/salib-{{ version }}.tar.gz
-  sha256: 2e6cb19ec772d6cb7368feceae0f61e51f2d6afdbc4f8986a780b87d657b38cc
+  sha256: 86e7cca79f73f3c52825101cacfb2d51d95adfb7771e7e0ebcd632bffa2cab82
 build:
   number: 0
   noarch: python
