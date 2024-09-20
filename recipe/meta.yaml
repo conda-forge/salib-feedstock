@@ -8,7 +8,7 @@ source:
   url: https://pypi.io/packages/source/s/salib/salib-{{ version }}.tar.gz
   sha256: e4a9c319b8dd02995a8dc983f57c452cb7e5b6dbd43e7b7856c90cb6a332bb5f
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . --no-deps -vv
 requirements:
@@ -18,7 +18,7 @@ requirements:
     - hatchling >=1.8.1
   run:
     - python >=3.8
-    - numpy >=1.20.3
+    - numpy >=2.0
     - pandas >=1.1.2
     - scipy >=1.7.3
     - matplotlib-base
