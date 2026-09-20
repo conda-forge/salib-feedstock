@@ -1,12 +1,12 @@
-{% set version = "1.5.2" %}
+{% set version = "1.6.0" %}
 
 package:
   name: salib
   version: {{ version }}
 source:
   fn: SALib-{{ version }}.tar.gz
-  url: https://files.pythonhosted.org/packages/16/63/bdde6c303e95e2c819c668076fb3255f4453ee2041103d0edd18a90b6839/salib-{{ version }}.tar.gz
-  sha256: a8eeedc4e87cf070f7ef450b76cdecd120d1e5c602a9c35855ec7777591f949f
+  url: https://files.pythonhosted.org/packages/3f/9d/5740846179a70e3771d4465d369bd64de81d773e124440c062728309f8b9/salib-{{ version }}.tar.gz
+  sha256: 122d25816137a50b5e972a206de7118961e202a6fb0922d9ec874fd49fdbbf5f
 build:
   number: 0
   noarch: python
